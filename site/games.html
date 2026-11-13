@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小遊戲｜歌仔戲小百科</title>
+<meta name="description" content="翻牌配對與看圖猜行當，邊玩邊認識歌仔戲。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="games">
+<main id="main" class="wrap">
+  <h1>小遊戲</h1>
+  <p class="lead">玩玩看，你記住了多少？音效預設是關的，想聽的話，到上方按「音效」。</p>
+
+  <div class="tabs" role="tablist" aria-label="選擇遊戲">
+    <button type="button" role="tab" id="tab-memory" aria-controls="panel-memory" aria-selected="true">翻牌配對</button>
+    <button type="button" role="tab" id="tab-quiz" aria-controls="panel-quiz" aria-selected="false">看圖猜行當</button>
+  </div>
+
+  <!-- 翻牌配對 -->
+  <section class="panel" id="panel-memory" role="tabpanel" aria-labelledby="tab-memory">
+    <form id="memory-setup">
+      <fieldset>
+        <legend>1. 選牌組</legend>
+        <div class="choices" id="m-decks"></div>
+      </fieldset>
+      <fieldset>
+        <legend>2. 選難度</legend>
+        <div class="choices" id="m-diffs"></div>
+      </fieldset>
+      <p class="hint" id="m-best" aria-live="polite"></p>
+      <button type="submit" class="btn">開始</button>
+    </form>
+
+    <div id="memory-play" hidden>
+      <div class="stats" aria-live="off">
+        <span>步數：<span id="m-steps">0</span></span>
+        <span>時間：<span id="m-time">0</span> 秒</span>
+      </div>
+      <p class="hint" id="m-note"></p>
+      <div class="board" id="m-board"></div>
+      <div class="result" id="m-result" role="status" hidden></div>
+      <div class="actions">
+        <button type="button" class="btn" id="m-again">重玩</button>
+        <button type="button" class="btn secondary" id="m-back">換牌組或難度</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 看圖猜行當 -->
+  <section class="panel" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden>
+    <div id="q-start">
+      <p>每題一張圖，從選項裡選出它是哪一個行當。不知道行當是什麼？先去<a href="roles.html">角色行當</a>看看。</p>
+      <button type="button" class="btn" id="q-begin">開始</button>
+    </div>
+
+    <div id="q-game" hidden>
+      <p><strong id="q-progress"></strong></p>
+      <figure class="media" id="q-figure"></figure>
+      <div class="options" id="q-options"></div>
+      <p class="feedback" id="q-feedback" role="status"></p>
+      <button type="button" class="btn" id="q-next" hidden>下一題</button>
+    </div>
+
+    <div class="result" id="q-result" role="status" hidden></div>
+  </section>
+
+  <nav class="pager" aria-label="單元換頁">
+    <a href="backstage.html">← 上一頁：後台秘辛</a>
+  </nav>
+</main>
+<script defer src="data/sources.js"></script>
+<script defer src="data/glossary.js"></script>
+<script defer src="data/cards.js"></script>
+<script defer src="js/core.js"></script>
+<script defer src="js/sound.js"></script>
+<script defer src="js/layout.js"></script>
+<script defer src="js/glossary.js"></script>
+<script defer src="js/media.js"></script>
+<script defer src="js/memory-game.js"></script>
+<script defer src="js/quiz.js"></script>
+<script defer src="js/games.js"></script>
+</body>
+</html>
