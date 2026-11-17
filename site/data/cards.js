@@ -38,7 +38,7 @@ window.OPERA.cards = {
       pairs: [
         { id: 'banxian', a: '扮仙', b: '正戲前祝賀神明的戲' },
         { id: 'sanxianhui', a: '三仙會', b: '福、祿、壽三位神仙上場' },
-        { id: 'zuibaxian', a: '醉八仙', b: '八仙到瑤池祝壽喝醉' },
+        { id: 'zuibaxian', a: '醉八仙', b: '八仙到瑤池祝壽，喝的酩酊大醉' },
         { id: 'tianguan', a: '天官賜福', b: '扮天公仙時常選的戲' },
         { id: 'minxi', a: '民戲', b: '又叫野台戲' },
         { id: 'waitai', a: '外台公演', b: '室外演出，有劇本' },
