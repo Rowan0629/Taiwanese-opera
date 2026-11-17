@@ -127,7 +127,7 @@ window.OPERA.sources = [
     id: 'photos-troupe',
     type: 'image',
     title: '歌仔戲演出與後台照片（演員、扮仙角色、戲服、舞台、後台）',
-    author: '劇團成員拍攝、戲迷拍攝與粉絲專頁提供（部分照片浮水印標示攝影者 TZU YI、Allison Qian）',
+    author: '劇團成員拍攝、戲迷拍攝與粉絲專頁提供（部分照片浮水印標示攝影者 TZU YI、Allison Qian，部分照片有「唱歌仔欸 嘉誼」標記）',
     url: '',
     accessDate: '2026-11-18',
     license: '待核對：各照片的攝影者與授權方式尚未逐張確認',
