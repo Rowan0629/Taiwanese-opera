@@ -3,8 +3,8 @@ window.OPERA = window.OPERA || {};
 window.OPERA.glossary = [
   { id: 'luodisao', term: '落地掃', meaning: '在空地上隨地演唱的簡單小戲，是歌仔戲的前身。' },
   { id: 'neitai', term: '內台', meaning: '在戲院裡賣票演出的歌仔戲。' },
-  { id: 'waitai', term: '外台', meaning: '在廟口或空地搭起戲台演出的歌仔戲，也叫野台。' },
-  { id: 'minxi', term: '民戲', meaning: '民間出錢請戲班來演的戲，多半是廟會慶典時演給神明和大家看。' },
+  { id: 'waitai', term: '外台', meaning: '在廟口或空地搭起戲台，在室外演出的歌仔戲。' },
+  { id: 'minxi', term: '民戲', meaning: '民間出錢請戲班來演的戲，也叫野台戲，多半是廟會慶典時演給神明和大家看。' },
   { id: 'huxipai', term: '胡撇仔', meaning: '一種很「混搭」的歌仔戲風格，演員可能穿洋服、和服，還拿武士刀。' },
   { id: 'hangdang', term: '行當', meaning: '戲曲裡對角色類型的分類，例如生、旦、丑。' },
   { id: 'xianxi', term: '扮仙', meaning: '正戲開演前，先演一小段向神明祝賀的戲。' },

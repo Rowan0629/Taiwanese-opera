@@ -11,7 +11,7 @@ window.OPERA.sources = [
     accessDate: '2026-11-14',
     license: 'CC BY-SA 4.0（文字內容）',
     units: ['history', 'performance', 'roles', 'music', 'costume', 'backstage'],
-    note: '部分細節（創始者、年代）頁面引自書籍與論文，維基百科本身並非定論，請再核對。'
+    note: '部分細節（年代）頁面引自書籍與論文，維基百科本身並非定論，請再核對。'
   },
   {
     id: 'chi-2016',
