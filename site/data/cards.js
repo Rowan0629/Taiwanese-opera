@@ -11,7 +11,7 @@ window.OPERA.cards = {
       deckName: '生旦行當',
       pairs: [
         { id: 'zaisheng', a: '囝仔生', b: '小朋友' },
-        { id: 'laosheng', a: '老生', b: '年長的男性' },
+        { id: 'laosheng', a: '老生', b: '年長的男性，通常會帶髯口（鬍子）' },
         { id: 'wensheng', a: '文生', b: '多演書生、官員' },
         { id: 'wusheng', a: '武生', b: '有武功的男性，多演武將' },
         { id: 'kudan', a: '苦旦', b: '命運坎坷、受苦的女性' },

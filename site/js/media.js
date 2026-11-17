@@ -34,9 +34,20 @@
     var id = slot.getAttribute('data-youtube');
     var title = slot.getAttribute('data-title') || '影片';
     slot.textContent = '';
+    var poster = slot.getAttribute('data-poster');
     var btn = O.el('button', { type: 'button', class: 'video-play' });
+    if (poster) {
+      /* 直式影片的封面：完整顯示在深色框中間；圖載入失敗就退回純色按鈕 */
+      var img = O.el('img', { class: 'video-poster', src: poster, alt: '' });
+      img.addEventListener('error', function () {
+        btn.classList.remove('has-poster');
+        if (img.parentNode) img.parentNode.removeChild(img);
+      });
+      btn.classList.add('has-poster');
+      btn.appendChild(img);
+    }
     btn.appendChild(O.el('span', { class: 'play-icon', 'aria-hidden': 'true' }, '▶'));
-    btn.appendChild(O.el('span', null, '播放：' + title));
+    btn.appendChild(O.el('span', { class: 'video-play-label' }, '播放：' + title));
     btn.addEventListener('click', function () {
       slots.forEach(function (s) {
         if (s !== slot && s.querySelector('iframe')) resetSlot(s);
@@ -54,6 +65,7 @@
       title: title,
       loading: 'lazy',
       allow: 'accelerometer; autoplay; encrypted-media; picture-in-picture',
+      referrerpolicy: 'strict-origin-when-cross-origin',
       allowfullscreen: ''
     });
     slot.appendChild(frame);

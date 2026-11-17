@@ -113,15 +113,15 @@ window.OPERA.sources = [
     note: ''
   },
   {
-    id: 'yt-zanianzi-linzexu',
+    id: 'yt-zanianzi-dusanchun',
     type: 'text',
-    title: '115.07.19-台北~春美歌劇團 林則徐斬子（片段14）',
+    title: '114.12.29-台北~春美歌劇團 杜三春活捉負心漢顏世玉（片段18：都馬調接雜唸調接七字白）',
     author: '傳統戲曲-歌仔戲（YouTube 頻道）',
-    url: 'https://www.youtube.com/watch?v=IG2MFjrA1_I&t=453s',
+    url: 'https://www.youtube.com/watch?v=Shbtdw8rmOE&t=257s',
     accessDate: '2026-11-17',
     license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
     units: ['music'],
-    note: '雜念調的片段從影片 7 分 33 秒開始播放。'
+    note: '雜念調的片段為影片 4 分 17 秒至 5 分 19 秒。'
   },
   {
     id: 'arte-lesson',
