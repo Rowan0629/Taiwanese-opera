@@ -269,6 +269,29 @@ p {
   object-fit: cover;
 }
 
+/* 直式或橫式都完整顯示的照片：保持原本比例，太高就縮小，不裁切 */
+.media-natural .media-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(70vh, 560px);
+  aspect-ratio: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.card-body .media {
+  margin: 12px 0 0;
+}
+
+.card-body .media-natural .media-img {
+  max-height: min(60vh, 440px);
+}
+
+.media-natural figcaption {
+  text-align: center;
+}
+
 .ph {
   display: flex;
   align-items: center;

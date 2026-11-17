@@ -124,6 +124,17 @@ window.OPERA.sources = [
     note: '雜念調的片段為影片 4 分 17 秒至 5 分 19 秒。'
   },
   {
+    id: 'photos-troupe',
+    type: 'image',
+    title: '歌仔戲演出與後台照片（演員、扮仙角色、戲服、舞台、後台）',
+    author: '劇團成員拍攝、戲迷拍攝與粉絲專頁提供（部分照片浮水印標示攝影者 TZU YI、Allison Qian）',
+    url: '',
+    accessDate: '2026-11-18',
+    license: '待核對：各照片的攝影者與授權方式尚未逐張確認',
+    units: ['performance', 'roles', 'xianxi', 'costume', 'backstage'],
+    note: '待核對：公開使用前，請向攝影者確認同意；能逐張補上拍攝者與來源更好。'
+  },
+  {
     id: 'arte-lesson',
     type: 'text',
     title: '戲曲教案（一桌二椅與常用道具）',
