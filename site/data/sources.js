@@ -69,6 +69,17 @@ window.OPERA.sources = [
     note: '待核對：撰寫時只看到搜尋結果的摘要，標題為暫擬。'
   },
   {
+    id: 'tcmb-zhezi',
+    type: 'text',
+    title: '蘭陽戲劇團─戲服藝術【褶子】',
+    author: '宜蘭縣政府文化局（國家文化記憶庫）',
+    url: 'https://tcmb.culture.tw/zh-tw/detail?id=598039&indexCode=Culture_Object',
+    accessDate: '2026-11-17',
+    license: '政府機關公開資料（只摘述重點）',
+    units: ['costume'],
+    note: ''
+  },
+  {
     id: 'arte-lesson',
     type: 'text',
     title: '戲曲教案（一桌二椅與常用道具）',

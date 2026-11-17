@@ -20,20 +20,6 @@ window.OPERA.cards = {
       ]
     },
     {
-      deckId: 'instruments',
-      deckName: '樂器配名稱',
-      pairs: [
-        { id: 'kezixian', a: '殼仔弦', b: '用椰子殼當共鳴箱的拉弦樂器' },
-        { id: 'yueqin', a: '月琴', b: '圓形共鳴箱、用手指或撥片彈奏的樂器' },
-        { id: 'dongxiao', a: '洞簫', b: '豎著吹的竹管樂器，聲音柔和' },
-        { id: 'di', a: '笛子', b: '橫著吹的竹管樂器' },
-        { id: 'sanxian', a: '三弦', b: '有三條弦的彈撥樂器' },
-        { id: 'daluo', a: '大鑼', b: '武場的打擊樂器，聲音響亮' },
-        { id: 'bangzi', a: '梆子', b: '木製的打擊樂器，敲出清脆的節拍' },
-        { id: 'bo', a: '鈸', b: '兩片圓形銅片，互相拍擊發出聲響' }
-      ]
-    },
-    {
       deckId: 'xianxi',
       deckName: '扮仙儀式配說明',
       pairs: [
