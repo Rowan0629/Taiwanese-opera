@@ -143,7 +143,7 @@ window.OPERA.sources = [
     accessDate: '2026-11-18',
     license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
     units: ['music'],
-    note: '待核對：放在「文場與武場」卡片，但影片標題是七字調唱腔，請確認畫面內容與武場相符。'
+    note: '放在「文場與武場」卡片。影片標題為七字調唱腔，畫面內容為武場。'
   },
   {
     id: 'arte-lesson',

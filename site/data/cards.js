@@ -260,8 +260,8 @@ window.OPERA.cards = {
     { id: 'q5', image: 'kudan.jpg', imageAlt: '穿白色衣裳、神情哀傷的女性演員', answer: '苦旦' },
     { id: 'q6', image: 'huadan-1.jpg', imageAlt: '穿淺綠色衣裳、手拿手帕、笑容活潑的女性演員', answer: '花旦' },
     { id: 'q7', image: 'sanhua-1.jpg', imageAlt: '頭綁格子布巾、臉上畫著小鬍子、笑著捧著碗的演員', answer: '三花' },
-    { id: 'q8', image: 'sanhua-3.jpg', imageAlt: '戴官帽、穿紅色龍紋官袍、臉上畫著八字鬍的演員', answer: '三花' },
+    { id: 'q8', image: '', imageAlt: '', answer: '三八' },  /* 照片待補 */
     { id: 'q9', image: 'guangong.jpg', imageAlt: '臉上畫著紅色臉譜、留著長黑鬍子的演員', answer: '淨' },
-    { id: 'q10', image: 'baojia-jiangjun.jpg', imageAlt: '穿紅色龍紋官袍、戴官帽的演員', answer: '龍套' }
+    { id: 'q10', image: '', imageAlt: '', answer: '龍套' }  /* 照片待補 */
   ]
 };
