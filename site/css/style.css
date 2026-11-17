@@ -864,6 +864,73 @@ legend {
   max-width: 420px;
 }
 
+/* ---------- 頁籤與卡片工具（js/tabs.js） ---------- */
+.tablist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 8px;
+}
+
+.tab {
+  font: inherit;
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid var(--red);
+  background: var(--paper);
+  color: var(--red);
+  cursor: pointer;
+}
+
+.tab:hover {
+  background: var(--gold-soft);
+}
+
+.tab[aria-selected='true'] {
+  background: var(--red);
+  color: #fff;
+}
+
+.tab[aria-selected='true']:hover {
+  background: var(--red-dark);
+}
+
+/* 頁籤本身已經是標題，區塊標題只留給朗讀軟體 */
+.tabs-ready .tab-panel > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.cards-tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.tool-btn {
+  font: inherit;
+  font-size: 0.9375rem;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tool-btn:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
 /* ---------- 使用者設定「減少動態效果」 ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
