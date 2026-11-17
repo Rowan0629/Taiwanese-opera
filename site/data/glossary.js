@@ -14,6 +14,7 @@ window.OPERA.glossary = [
   { id: 'kudiao', term: '哭調', meaning: '用來表達悲傷心情的曲調。' },
   { id: 'mubiaoxi', term: '幕表戲', meaning: '又稱活戲。沒有完整劇本，只有劇情大綱，演員上台後臨場發揮的戲。' },
   { id: 'angmoudui', term: '尪某對', meaning: '傳統戲曲「扮仙戲」的壓軸團圓橋段。' },
+  { id: 'baojiajiangjun', term: '保駕將軍', meaning: '跟隨在皇上身邊，保護皇上的隨從。' },
   { id: 'yankou', term: '髯口', meaning: '戲曲演員戴的假鬍子。' },
   { id: 'xilong', term: '戲籠', meaning: '放戲服和道具的大箱子。' },
   { id: 'xishen', term: '戲神', meaning: '戲班信奉的守護神，例如田都元帥。' }

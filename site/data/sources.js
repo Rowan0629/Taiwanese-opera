@@ -135,6 +135,17 @@ window.OPERA.sources = [
     note: '待核對：公開使用前，請向攝影者確認同意；能逐張補上拍攝者與來源更好。'
   },
   {
+    id: 'yt-wuchang-linyukai',
+    type: 'text',
+    title: '歌仔戲唱腔【七字調】',
+    author: '林郁鎧（YouTube 頻道）',
+    url: 'https://www.youtube.com/watch?v=NHGjw2gHVxU',
+    accessDate: '2026-11-18',
+    license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
+    units: ['music'],
+    note: '待核對：放在「文場與武場」卡片，但影片標題是七字調唱腔，請確認畫面內容與武場相符。'
+  },
+  {
     id: 'arte-lesson',
     type: 'text',
     title: '戲曲教案（一桌二椅與常用道具）',
