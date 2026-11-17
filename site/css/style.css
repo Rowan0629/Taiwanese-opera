@@ -386,6 +386,26 @@ p {
   margin: 16px 0;
 }
 
+/* 冷知識：用綠色底跟金色的提示框區分 */
+.tip-box {
+  background: #e8f4ec;
+  border-left: 5px solid var(--good);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin: 24px 0;
+}
+
+.tip-box > :last-child {
+  margin-bottom: 0;
+}
+
+.tip-title {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--good);
+  margin: 0 0 8px;
+}
+
 /* ---------- 名詞解釋 ---------- */
 .term {
   font: inherit;

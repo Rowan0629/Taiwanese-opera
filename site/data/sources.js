@@ -80,6 +80,50 @@ window.OPERA.sources = [
     note: ''
   },
   {
+    id: 'yt-duma-linzexu',
+    type: 'text',
+    title: '115.07.19-台北~春美歌劇團 林則徐斷子（都馬調）',
+    author: '傳統戲曲-歌仔戲（YouTube 頻道）',
+    url: 'https://www.youtube.com/watch?v=pXdh_B83Xmg',
+    accessDate: '2026-11-17',
+    license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
+    units: ['music'],
+    note: ''
+  },
+  {
+    id: 'yt-qizidiao-yizei',
+    type: 'text',
+    title: '115.07.17-台北~春美歌劇團 義賊與千金（七字調/七字白）',
+    author: '傳統戲曲-歌仔戲（YouTube 頻道）',
+    url: 'https://www.youtube.com/watch?v=7e1oNqdJvQY',
+    accessDate: '2026-11-17',
+    license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
+    units: ['music'],
+    note: ''
+  },
+  {
+    id: 'yt-jianghudiao-guochunmei',
+    type: 'text',
+    title: '郭春美《江湖調》',
+    author: '愛看瓜戲（YouTube 頻道）',
+    url: 'https://www.youtube.com/watch?v=rsqd3IWgF_U',
+    accessDate: '2026-11-17',
+    license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
+    units: ['music'],
+    note: ''
+  },
+  {
+    id: 'yt-zanianzi-linzexu',
+    type: 'text',
+    title: '115.07.19-台北~春美歌劇團 林則徐斬子（片段14）',
+    author: '傳統戲曲-歌仔戲（YouTube 頻道）',
+    url: 'https://www.youtube.com/watch?v=IG2MFjrA1_I&t=453s',
+    accessDate: '2026-11-17',
+    license: 'YouTube 嵌入播放，影片著作權屬原頻道與演出者',
+    units: ['music'],
+    note: '雜念調的片段從影片 7 分 33 秒開始播放。'
+  },
+  {
     id: 'arte-lesson',
     type: 'text',
     title: '戲曲教案（一桌二椅與常用道具）',
