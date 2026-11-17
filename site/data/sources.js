@@ -131,7 +131,7 @@ window.OPERA.sources = [
     url: '',
     accessDate: '2026-11-18',
     license: '待核對：各照片的攝影者與授權方式尚未逐張確認',
-    units: ['performance', 'roles', 'xianxi', 'costume', 'backstage'],
+    units: ['performance', 'roles', 'xianxi', 'costume', 'backstage', 'games'],
     note: '待核對：公開使用前，請向攝影者確認同意；能逐張補上拍攝者與來源更好。'
   },
   {
