@@ -17,6 +17,7 @@
 
   <div class="tabs" role="tablist" aria-label="選擇遊戲">
     <button type="button" role="tab" id="tab-memory" aria-controls="panel-memory" aria-selected="true">翻牌配對</button>
+    <button type="button" role="tab" id="tab-choice" aria-controls="panel-choice" aria-selected="false">選擇題</button>
     <button type="button" role="tab" id="tab-quiz" aria-controls="panel-quiz" aria-selected="false">看圖猜行當</button>
   </div>
 
@@ -50,6 +51,25 @@
     </div>
   </section>
 
+  <!-- 選擇題 -->
+  <section class="panel" id="panel-choice" role="tabpanel" aria-labelledby="tab-choice" hidden>
+    <div id="c-start">
+      <p>每次從題庫隨機抽 10 題，選出答案，答完會告訴你原因。</p>
+      <button type="button" class="btn" id="c-begin">開始</button>
+    </div>
+
+    <div id="c-game" hidden>
+      <p><strong id="c-progress"></strong></p>
+      <p class="question" id="c-question"></p>
+      <div class="options" id="c-options"></div>
+      <p class="feedback" id="c-feedback" role="status"></p>
+      <p class="hint" id="c-explain"></p>
+      <button type="button" class="btn" id="c-next" hidden>下一題</button>
+    </div>
+
+    <div class="result" id="c-result" role="status" hidden></div>
+  </section>
+
   <!-- 看圖猜行當 -->
   <section class="panel" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden>
     <div id="q-start">
@@ -81,6 +101,7 @@
 <script defer src="js/glossary.js"></script>
 <script defer src="js/media.js"></script>
 <script defer src="js/memory-game.js"></script>
+<script defer src="js/choice-quiz.js"></script>
 <script defer src="js/quiz.js"></script>
 <script defer src="js/games.js"></script>
 </body>
